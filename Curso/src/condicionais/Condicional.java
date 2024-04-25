@@ -11,7 +11,7 @@ public class Condicional {
         if(anoDeLancamento >= 2022){
             System.out.println("Lançamento que os clinetes estão curtindo!");
         }else {
-            System.out.println("Filme retro que vale a pena assistir");
+            System.out.println("br.com.alura.screenmatch.modelos.Filme retro que vale a pena assistir");
         }
 
         if(incluidoNoPlano == true && tipoPlano.equals("plus")){

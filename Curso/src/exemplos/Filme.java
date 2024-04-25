@@ -15,7 +15,7 @@ public class Filme {
         System.out.println("Nome do filme: "+ nome);
         System.out.println("Ano de Lançamento: "+ anoDeLancamento);
         System.out.println("Está incluido no plano: "+ incluidoNoPlano);
-        System.out.println("Duração do Filme: " + duracaoEmMinutos);
+        System.out.println("Duração do br.com.alura.screenmatch.modelos.Filme: " + duracaoEmMinutos);
 
     }
 
