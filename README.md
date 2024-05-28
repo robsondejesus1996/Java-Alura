@@ -1,4 +1,27 @@
 <p align="center">
+  <a href=https://cursos.alura.com.br/course/java-listas-colecoes-dados>
+    <img src="https://github.com/robsondejesus1996/Java-Alura/assets/31260719/a55b8f99-9418-43e2-9a68-f13a61c76269" alt="Java: criando a sua primeira aplicação">
+
+  </a>
+</p>
+
+<hr>
+
+<p align="center">Esse projeto é utilizado no <a href="https://cursos.alura.com.br/course/java-listas-colecoes-dados">Java: trabalhando com listas e coleções de dados</a> </p>
+
+## Objetivos do projeto no curso
+* Aprenda a representar uma lista de objetos em Java
+* Entenda o funcionamento da classe ArrayList do Java
+* Manipule uma lista de objetos
+* Realize ordenação de uma lista de acordo com algum critério
+* Faça casting de objetos e verificação de tipo com instanceof
+
+
+
+
+<hr/>
+
+<p align="center">
   <a href=https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos>
     <img src="https://github.com/robsondejesus1996/Java-Alura/assets/31260719/1cf4e6f3-a4dd-4741-8366-134a6b897ea8" alt="Java: criando a sua primeira aplicação">
 
@@ -15,6 +38,10 @@
 * Utilize herança como mecanismo de reaproveitamento de código
 * Aplique polimorfismo para tornar o código do projeto flexível
 * Entenda como utilizar interfaces para padronização de métodos
+
+
+
+<hr/>
 
 
 
