@@ -1,5 +1,11 @@
 package JavaAPI;
 
+import br.com.alura.screenmatch.modelos.Titulo;
+import br.com.alura.screenmatch.modelos.TituloOmdb;
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -26,13 +32,20 @@ public class PrincipalComBusca {
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
+
+
+        String json = response.body();
         System.out.println(response.body());
 
+       Gson gson = new GsonBuilder()
+               .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+               .create();
 
-//        client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
-//                .thenApply(HttpResponse::body)
-//                .thenAccept(System.out::println)
-//                .join();
+        TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
+        System.out.println(meuTituloOmdb);
 
+        Titulo meuTitulo = new Titulo(meuTituloOmdb);
+        System.out.println("Titulo já convertido");
+        System.out.println(meuTitulo);
     }
 }
